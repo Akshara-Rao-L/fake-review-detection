@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+    background: linear-gradient(135deg, #2C1320, #56667A);
+    font-family: "Segoe UI", sans-serif;
+    color: #2C1320;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #EFF6FF;
+}
+
+.subtitle {
+    color: #A7ADC6;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2C1320;
+}
+
+textarea {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    background: #F4F5FA;
+    resize: none;
+}
+
+.counter {
+    text-align: left;
+    font-size: 14px;
+    color: #56667A;
+    margin: 10px 0 20px;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background: #56667A;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5F4B66;
+}
+
+#result {
+    margin-top: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.examples {
+    margin-top: 30px;
+}
+
+.example-btn {
+    background: transparent;
+    border: 2px solid #8797AF;
+    color: #56667A;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.example-btn:hover {
+    background: #8797AF;
+    color: white;
+}

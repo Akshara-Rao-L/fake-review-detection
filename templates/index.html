@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake Review Detector</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>Fake Review Detector</h1>
+    <p class="subtitle">
+        Machine Learning powered analysis to detect potentially fake or suspicious product reviews.
+    </p>
+
+    <div class="card">
+        <label>Review Text</label>
+        <textarea id="review" placeholder="Paste a product review here to analyze..."></textarea>
+
+        <div class="counter">
+            <span id="charCount">0</span> characters,
+            <span id="wordCount">0</span> words
+        </div>
+
+        <button onclick="analyzeReview()">
+            🔍 Analyze Review
+        </button>
+
+        <div id="result"></div>
+
+        <div class="examples">
+            <p>Try an example:</p>
+            <button class="example-btn" onclick="fillSuspicious()">Suspicious Example</button>
+            <button class="example-btn" onclick="fillGenuine()">Genuine Example</button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/script.js"></script>
+</body>
+</html>
