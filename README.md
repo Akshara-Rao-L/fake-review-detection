@@ -4,7 +4,6 @@ A **Machine Learning–powered web application** that analyzes product reviews a
 
 This project demonstrates an **end-to-end ML pipeline**, from data preprocessing and model training to deployment with a modern, user-friendly web interface.
 
----
 
 ## What Problem Does This Solve?
 
@@ -16,7 +15,6 @@ This system helps:
 * Improve **trust in online feedback**
 * Assist users and platforms in making **informed decisions**
 
----
 
 ## Project Architecture
 
@@ -48,7 +46,6 @@ fake-review-detection/
 └── README.md
 ```
 
----
 
 ## Machine Learning Pipeline
 
@@ -77,7 +74,6 @@ fake-review-detection/
 * **Suspicious / Fake Review** 
 * Confidence score
 
----
 
 ## Web Application
 
@@ -92,7 +88,6 @@ fake-review-detection/
 * Python
 * Flask REST API
 
----
 
 ## Installation & Setup
 
@@ -117,7 +112,6 @@ fake_review_env\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
----
 
 ## Train the Model
 
@@ -135,7 +129,6 @@ notebook/fake_review_training.ipynb
 
 Run all cells to train and save the model.
 
----
 
 ## Run the Application
 
@@ -149,7 +142,6 @@ Open your browser:
 http://127.0.0.1:5000
 ```
 
----
 
 
 ## Example Review Screenshots
@@ -159,7 +151,6 @@ http://127.0.0.1:5000
 <img width="1192" height="717" alt="Genuine review" src="https://github.com/user-attachments/assets/9a8b2388-7567-419e-b684-152013897ff0" />
 
 
----
 
 ## Future Improvements
 
@@ -169,7 +160,6 @@ http://127.0.0.1:5000
 *  Transformer models (BERT)
 *  Cloud deployment (Render / AWS)
 
----
 
 ## Technologies Used
 
@@ -180,14 +170,12 @@ http://127.0.0.1:5000
 * HTML / CSS / JavaScript
 
 
----
 
 ## Author
 
 Developed by **[Akshara Rao]**
 
----
 
 ## License
 
-This project is open‑source and available under the **MIT License**.
+This project is licensed under the **MIT License**.
